@@ -15,6 +15,7 @@ public class testAop {
     @Autowired
     private UserService userService;
 
+    //aaaaaaaaaaaaaaaaaaaaa
     @Test
     public void test1() {
         userService.register("小黑", "123456");
